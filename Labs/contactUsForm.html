@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us Form</title>
+    </head>
+    <body>
+        <label id="FirstNameLabel" for="FirstName">First Name: </label>
+        <input id="FirstName" name="FirstName" type="text"><br/>
+
+        <label id="LastNameLabel" for="LastName">Last Name: </label>
+        <input id="LastName" name="LastName" type="text"><br/>
+
+        <label id="EmailLabel" for="Email">Email: </label>
+        <input id="Email" name="Email" type="text"><br/>
+
+        <label id="LicenseLabel" for="TypeOfLicense">Type Of License: </label>
+        <input type="radio" name="Type" value="Business" checked/>
+        <input type="radio" name="Type" value="Personal"/><br/>
+
+        <label id="ReasonLabel" for="Reason">Reason: </label>
+        <select>
+            <option value="selectareason">Select a Reason</option>
+            <option value="softwaresupport">Software Support</option>
+            <option value="hardwaresupport">Hardware Support</option>
+            <option value="informationrequest">Information Request</option>
+        </select><br/>
+
+        <label id="AdditionalInformationLabel" for="AdditionalInformation">Additional Information: </label>
+        <textarea id="AdditionalInformation" name="AdditionalInformation"></textarea><br/>
+
+        <input id="TermsOfService" name="TermsOfService" type="checkbox"> I have read the terms of service.<br/>
+        <input id="Submit" name="Submit" type="Submit" value="Send Request">
+    </body>
+</html>
