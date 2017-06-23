@@ -1,3 +1,11 @@
 .bandMembers {
-    font-style: italic;
+    font-family: 'Acme', sans-serif;
+}
+.albumTitle {
+    font-family: 'Acme', sans-serif;
+}
+#albumImage{
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
 }
