@@ -4,6 +4,13 @@
         <title>
             Menu
         </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
       <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
       <style>
         a:link {
@@ -34,9 +41,11 @@
         <h1 align="middle">Cronin's Pub</h1>
         <hr></hr>
 
-        <a href="restaurantHome.html">Home</a>
-        <a href="restaurantMenu.html">Menu</a>
-        <a href="restaurantContact.html">Contact Us</a>
+        <ul class="nav nav-tabs">
+            <li><a href="restaurantHome.html"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li class="active"><a href="restaurantMenu.html">Menu</a></li>
+            <li><a href="restaurantContact.html">Contact Us</a></li>
+        </ul>    
         <hr></hr>
 
         <table width="75%" align="center">
