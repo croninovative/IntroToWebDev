@@ -2,6 +2,13 @@
 <html>
     <head>
         <title>Album Cover</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
         <style>
         li {
             font-style: italic;
@@ -10,7 +17,7 @@
 
         td {
             font-style: italic;
-            background-color:tan;
+
         }
 
         a:link {
@@ -32,10 +39,11 @@
         <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
     </head>    
     <body>
-        <div id="albumImage"; >
-            <p>
+        <div id="albumImage" class="container">
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg" class="center-block img-circle">
+            <!--<p>
                 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            </p>
+            </p> -->
         </div>
 
         <h1 align="middle"; class="albumTitle">Master of Puppets</h1>
@@ -54,9 +62,10 @@
             <li>Producer</li>
 
         <h2 align="middle">Tracks</h2>
-        <table border="1" width="75%" align="center">
+        <div class="container">
+        <table border="1" width="50%" class="table table-striped">
             <thead>
-                <tr bgcolor="grey">
+                <tr>
                     <th>Track #</th>    
                     <th>Track Title</th>
                     <th>Track Length</th>
@@ -79,6 +88,7 @@
                     <td>8:45</td>
                 </tr>
             </tbody>    
-        </table>    
+        </table>  
+        </div>      
     </body>
 </html>        
